@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+body{
+    background-image: url(assets/bg.png);
+}
+.display-flex{
+    display: flex;
+
+}
+.color-black{
+   color: rgba(17, 17, 17, 1); 
+}
+.color-orange{
+    color: rgba(254, 163, 1, 1);
+}
+.color-skyblue{
+    color: rgba(1, 172, 253, 1);
+}
+.color-white{
+    color: rgba(247, 247, 247, 1);
+}
+.color-unknown{
+    color: rgba(5, 212, 223, 1);
+}
+.color-violet{
+    color: rgba(93, 88, 239, 1);
+}
+/* header styles */
+.navbar{
+    
+    width: 1440;
+    justify-content: space-between;
+    /* from pixso */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 186;
+    padding: 20px 0px 20px 0px;
+}
+.nav-image{
+    /* position: absolute;
+    width: 5.31px;
+    height: 3.59px;
+    left: 74.86%;
+    right: 5.9%;
+    top: 241.67%;
+    bottom: -178.6%; */
+}
+.school{
+    font-size: 32px;
+    font-weight: 700;
+}
+.list-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight:400 ;
+    font-size: 1.25rem;
+}
+.btn-primary{
+    background-color:rgba(254, 163, 1, 1) ;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color:white;
+    border: none;
+    
+    
+}
+
+
+
+/* main styles */
+.main-sec{
+    /* Section */
+position: relative;
+width: 367.8px;
+height: 476.78px;
+   
+}
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+/* banner related styles */
+.banner{
+     display: flex;                                      flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 186;
+     padding: 20px 0px 20px 0px;
+    /* position: static;
+    width: 468.61px;
+    height: 575px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 50px;   */
+}
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+}
+.banner-heading{
+    font-size: 56px;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-secondary{
+    background-color:black ;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color:white;
+    border: none;
+}
+.banner-img{
+    position: static;
+    width: 468.61px;
+    height: 575px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 50px;
+
+}
